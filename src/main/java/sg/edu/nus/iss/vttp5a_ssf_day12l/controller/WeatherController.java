@@ -73,7 +73,7 @@ public class WeatherController {
             System.out.println(str + ">>>" + form.getFirst(str));
         }
 
-        return "";
+        return "forma";
     }
     //multi-value map basically stores multiple request params eg.10 easily.
     //So we can pull the data easily and store in another object
